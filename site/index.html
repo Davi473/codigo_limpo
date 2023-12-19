@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Codigo Limpo
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="addClients">
+
+            <div class="linha-1">
+                <input id="Name" type="text" placeholder="Name">
+            </div>
+
+            <div class="linha-1">
+                <input id="Email" type="text" placeholder="Email">
+            </div>
+
+            <div class="linha-1">
+                <input type="number" id="Telephone" name="telefone" placeholder="Digite seu telefone">
+            </div>
+            
+            <div class="linha-1">
+                <select id="stats" name="select" >
+                    <option>Não Ligar Mais</option>
+                    <option>Novo</option>
+                    <option>Ligar Mais Tarde</option>
+                </select>
+            </div>
+
+            <div class="linha-1">
+                <input id="buttonAdicionar" type="submit" value="Adicionar">
+            </div>
+
+        </div>
+
+        <div class="listaClients">
+
+            <table id="referencia">
+
+                <tr>
+                    <th>
+                        NOME
+                    </th>
+                    <th>
+                        GMAIL
+                    </th>
+                    <th>
+                        TELEFONE
+                    </th>
+                    <th>
+                        STATS
+                    </th>
+                    <th>
+                        AÇÃO
+                    </th>
+                </tr>
+
+            </table>
+        </div>
+        
+    </body>
+    <script src="./Views/web/web.js"></script>
+    <script src="./Views/listaClients.js"></script>
+    <script src="main.js"></script>
+
+</html>
