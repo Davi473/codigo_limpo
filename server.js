@@ -1,9 +1,7 @@
 const express = require("express");
 const app = express();
 app.use(express.json());
-
-
-app.use("/", express.static("./site"));
+app.use("/", express.static("/Site"));
 
 // valores dos clientes sem banco de dados
 const clientesAdicionados = [
@@ -17,5 +15,5 @@ app.get("/valoresDosClientes", (req, res) => {
     res.json(clientesAdicionados);
 });
 
-app.listen(3000);
-console.log("Porta localhost:3000")
+app.listen(1880);
+console.log("Porta localhost:1880")
