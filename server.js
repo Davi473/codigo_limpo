@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.use(express.json());
-app.use("/", express.static("/Site"));
+app.use("/", express.static("/Site/index.html"));
 
 // valores dos clientes sem banco de dados
 const clientesAdicionados = [
