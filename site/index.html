@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Codigo Limpo
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+            <div class="adicionar">
+                
+                    <div class="linha-1">
+                        <input class="linha1" id="Name" type="text" placeholder="Name">
+                        <input class="linha1" id="Email" type="text" placeholder="Email">
+                        <input class="linha1" type="number" id="Telephone" name="telefone" placeholder="Digite seu telefone">
+                    </div>  
+                <div class="linha-2">
+                    <select class="linha1" id="stats" name="select" >
+                        <option>Não Ligar Mais</option>
+                        <option>Novo</option>
+                        <option>Ligar Mais Tarde</option>
+                    </select>
+                    <input class="buttonAdicionar" id="buttonAdicionar" type="submit" value="Adicionar">
+                </div>
+            </div>  
+
+            <div class="clientes">
+                <div class="center">
+                    <table id="referencia" class="table">
+                        <div>
+                            <tr>
+                                <th class="table-th">
+                                    NOME
+                                </th>
+                                <th class="table-th">
+                                    GMAIL
+                                </th>
+                                <th class="table-th">
+                                    TELEFONE
+                                </th>
+                                <th class="table-th">
+                                    STATS
+                                </th>
+                                <th class="table-th">
+                                    AÇÃO
+                                </th>
+                            </tr> 
+                        </div>
+                    </table>
+                </div>
+            </div>
+
+    </body>
+    <script src="./views/web/web.js"></script>
+    <script src="./views/listClient.js"></script>
+    <script src="main.js"></script>
+    
+</html>

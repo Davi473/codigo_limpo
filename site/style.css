@@ -1,0 +1,59 @@
+body {
+    display: center;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.adicionar{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+} 
+
+.buttonAdicionar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.linha1 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+
+.clientes {
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.center { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: center;
+    text-align: center;
+}
+
+.table, .table-th, td { 
+    border-radius: 5px;
+    border: 1px solid ;
+}
+
+.table-th {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buttonExcluir, .semBorda {
+    border: 0px;
+}
